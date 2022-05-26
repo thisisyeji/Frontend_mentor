@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/yjkim0109/Frontend_mentor/tree/main/nft-preview-card-component-main)
-- Live Site URL: [](https://nft-preview-card-rho-nine.vercel.app/)
+- Solution URL: [https://github.com/yjkim0109/Frontend_mentor/tree/main/nft-preview-card-component-main](https://github.com/yjkim0109/Frontend_mentor/tree/main/nft-preview-card-component-main)
+- Live Site URL: [https://nft-preview-card-rho-nine.vercel.app/](https://nft-preview-card-rho-nine.vercel.app/)
 
 ## My process
 
