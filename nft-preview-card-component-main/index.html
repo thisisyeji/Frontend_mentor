@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card_img">
+      <img src="./images/image-equilibrium.jpg" alt="nft_image" class="nft_img">
+      <div class="overlay">
+        <img src="./images/icon-view.svg" alt="nft_hover">
+      </div>
+    </div>
+    <div class="card">
+      <h1 class="card_title">
+        Equilibrium #3429
+      </h1>
+      <p class="card_desc color">
+        Our Equilibrium collection promotes<br> balance and calm.
+      </p>
+      <div class="card_nft">
+        <span class="nft_num">
+          <img src="./images/icon-ethereum.svg" alt="icon-ethereum" class="icon-ethereum"> 
+          0.041 ETH</span>
+        <span class="nft_leftdays color">
+          <img src="./images/icon-clock.svg" alt="icon-clock" class="icon-clock">
+          3 days left</span>
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="creator">
+      <img src="./images/image-avatar.png" alt="creator_image">
+      <p class="creator_name color">Creation of <span>Jules Wyvern</span></p>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yeji</a>.
+  </footer>
+</body>
+</html>
