@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-order-summary-component-using-html-and-css-dlouJIok2d](https://www.frontendmentor.io/solutions/mobile-first-order-summary-component-using-html-and-css-dlouJIok2d)
+- Live Site URL: [https://frontend-mentor-order-summary-three.vercel.app/](https://frontend-mentor-order-summary-three.vercel.app/)
 
 ## My process
 
