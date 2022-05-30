@@ -14,6 +14,8 @@ body {
   background-image: url(./images/pattern-background-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat; 
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
 }
 
 .color_gray {
@@ -27,6 +29,7 @@ main {
   height: 565px;
   background-color: white;
   border-radius: 20px;
+  box-shadow: 0 1.5em 1em hsl(227, 72%, 87%);
 }
 
 .main_img {
@@ -99,6 +102,7 @@ h1 {
   color: hsl(245, 75%, 52%);
   font-size: 0.813rem;
   font-weight: 700;
+  transition: all 500ms;
 }
 
 .change:hover {
@@ -121,7 +125,8 @@ button {
   background-color: hsl(245, 75%, 52%);
   color: white;
   margin-bottom: 10px;
-  box-shadow: 0 7px 27px hsl(245, 75%, 80%);;
+  box-shadow: 0 7px 27px hsl(245, 75%, 80%);
+  transition: all 500ms;
 }
 
 .proceed:hover {
@@ -133,6 +138,7 @@ button {
   background-color: rgba(255, 255, 255, 0);
   margin-bottom: 20px;
   color: hsl(224, 23%, 55%);
+  transition: all 500ms;
 }
 
 .cancel:hover {
