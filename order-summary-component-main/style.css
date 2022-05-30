@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.color_gray {
+  font-size: 	1rem;
+  font-weight: 400;
+  color: hsl(224, 23%, 55%);
+}
+
+main {
+  width: 330px;
+  height: 565px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.main_img {
+  display: block;
+  width: 100%;
+  height: 160px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 35px;
+}
+
+.title {
+  text-align: center;
+  margin: 0 30px;
+}
+
+h1 {
+  font-size: 1.375rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 20px;
+}
+
+.desc {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+}
+
+.plan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 0.875rem;
+  padding: 15px;
+  margin-bottom: 25px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+
+.icon_music {
+  margin-right: 15px;
+}
+
+.annual_plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.annual_plan span:first-child {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.annual_plan span:last-child {
+  color: hsl(224, 23%, 55%);
+}
+
+
+.change {
+  display: flex;
+  align-items: center;
+  color: hsl(245, 75%, 52%);
+  font-size: 0.813rem;
+  font-weight: 700;
+}
+
+.change:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(245, 75%, 70%);
+}
+
+button {
+  display: block;
+  border: none;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 0.938rem;
+  font-weight: 700;
+}
+
+.proceed {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  margin-bottom: 10px;
+  box-shadow: 0 7px 27px hsl(245, 75%, 80%);;
+}
+
+.proceed:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.cancel {
+  background-color: rgba(255, 255, 255, 0);
+  margin-bottom: 20px;
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+  
+  main {
+    width: 450px;
+    height: 700px;
+  }
+
+  .main_img {
+    height: 220px;
+    margin-bottom: 45px;
+  }
+
+  .title {
+    text-align: center;
+    margin: 0 75px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+  }
+
+  .desc {
+    margin-bottom: 20px;
+  }
+
+  .detail {
+    margin: 0 50px;
+  }
+
+  .plan {
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+
+  .icon_music {
+    margin-right: 20px;
+  }
+
+  .annual_plan {
+    font-size: 1.063rem;
+  }
+
+  .change {
+    font-size: 0.875rem;
+  }
+
+  .proceed{
+    margin-bottom: 15px;
+  }
+}
