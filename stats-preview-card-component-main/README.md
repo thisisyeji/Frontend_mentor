@@ -23,12 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile](./screenshot1.png)
+![Desktop](./screenshot2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-responsive-stats-preview-card-using-html-and-css-qHuuaOqn8S](https://www.frontendmentor.io/solutions/mobile-first-responsive-stats-preview-card-using-html-and-css-qHuuaOqn8S)
+- Live Site URL: [https://frontend-mentor-stats-preview.vercel.app/](https://frontend-mentor-stats-preview.vercel.app/)
 
 ## My process
 
