@@ -126,9 +126,4 @@ footer {
     background-color: hsl(179, 100%, 13%);
   }
 
-  footer {
-    position: fixed;
-    bottom: 0;
-    z-index: -1;
-  }
 }
