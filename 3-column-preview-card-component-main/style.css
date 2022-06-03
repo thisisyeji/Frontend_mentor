@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  width: 327px;
+  margin: 90px 25px;
+}
+
+.card {
+  padding: 46px;
+}
+
+.card img {
+  margin-bottom: 35px;
+}
+
+.card h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 	2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.card p {
+  display: inline-block;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 	0.938rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.card a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+  border-radius: 30px;
+  font-size: 	0.938rem;
+  padding: 13px 30px;
+  transition: background-color 1000ms;
+}
+
+.card a:hover {
+  background-color: transparent;
+  color: hsla(0, 0%, 100%, 0.75);
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+.sedans {
+  border-radius: 10px 10px 0 0;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.sedans a {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suvs a{
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  border-radius: 0 0 10px 10px;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.luxury a{
+  color: hsl(179, 100%, 13%);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+
+@media screen and (min-width: 920px) {
+  main {
+    width: 920px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .card p {
+    margin-bottom: 70px;
+  }
+  
+  .sedans {
+    border-radius: 10px 0 0 10px;
+    background-color: hsl(31, 77%, 52%);
+  }
+
+  .luxury {
+    border-radius: 0 10px 10px 0;
+    background-color: hsl(179, 100%, 13%);
+  }
+}
