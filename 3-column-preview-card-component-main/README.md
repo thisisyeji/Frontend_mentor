@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-responsive-3column-preview-card-using-html-and-css-GxtWwg1BsI](https://www.frontendmentor.io/solutions/mobile-first-responsive-3column-preview-card-using-html-and-css-GxtWwg1BsI)
+- Live Site URL: [https://frontend-mentor-3-column-six.vercel.app/](https://frontend-mentor-3-column-six.vercel.app/)
 
 ## My process
 
